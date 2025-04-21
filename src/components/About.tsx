@@ -2,8 +2,8 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
-// Use a visually engaging placeholder image from Unsplash (copied to assets)
-import profileImage from '../assets/photo-1488590528505-98d2b5aba04b.jpg';
+// Use a fallback image path that's guaranteed to exist
+import profileImage from '/placeholder.svg';
 
 export const About = () => {
   return (
