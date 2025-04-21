@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import profileImage from '/lovable-uploads/adc641f5-0dae-4dee-b6d6-6c670682dfd5.png';
+// Replace the missing image with a placeholder
+import profileImage from '/placeholder.svg';
 
 export const About = () => {
   return (
