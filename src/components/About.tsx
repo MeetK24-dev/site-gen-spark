@@ -2,8 +2,8 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
-// Use a visually engaging placeholder image (from provided set)
-import profileImage from '/photo-1485827404703-89b55fcc595e.jpg';
+// Using a placeholder image
+import profileImage from '../assets/profile-image.jpg';
 
 export const About = () => {
   return (
@@ -72,7 +72,7 @@ export const About = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
               <div className="relative max-w-sm rounded-lg overflow-hidden">
                 <img 
-                  src={profileImage} 
+                  src="/placeholder.svg" 
                   alt="Meet Kapoor" 
                   className="w-full h-auto rounded-lg hover:scale-105 transition-transform duration-200 animate-fade-in"
                 />
