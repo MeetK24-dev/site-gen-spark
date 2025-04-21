@@ -1,8 +1,9 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-// Replace the missing image with a placeholder
-import profileImage from '/placeholder.svg';
+
+// Use a visually engaging placeholder image (from provided set)
+import profileImage from '/photo-1485827404703-89b55fcc595e.jpg';
 
 export const About = () => {
   return (
@@ -12,7 +13,6 @@ export const About = () => {
           <span className="text-primary font-mono">01.</span> About Me
           <div className="h-px bg-border flex-grow ml-4"></div>
         </h2>
-
         <div className="grid md:grid-cols-5 gap-8">
           <div className="md:col-span-3 space-y-4">
             <p className="text-foreground/80">
@@ -30,7 +30,6 @@ export const About = () => {
               Node.js, React, MongoDB, and related technologies. I'm passionate about creating efficient,
               well-organized systems that solve real-world problems.
             </p>
-            
             <div className="pt-4">
               <h3 className="text-xl font-bold mb-4">Education</h3>
               <Card className="bg-card border-border mb-4">
@@ -75,7 +74,7 @@ export const About = () => {
                 <img 
                   src={profileImage} 
                   alt="Meet Kapoor" 
-                  className="w-full h-auto rounded-lg hover:scale-105 transition-transform duration-300"
+                  className="w-full h-auto rounded-lg hover:scale-105 transition-transform duration-200 animate-fade-in"
                 />
                 <div className="absolute inset-0 bg-background/10 hover:bg-transparent transition-colors duration-300"></div>
               </div>
